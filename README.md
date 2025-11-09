@@ -15,9 +15,9 @@ Frequency:float = 0.005
 Scale:float     = 1.0
 Wrap:int        = 256
 ```
-*Note: Scale is not always present in noise algorithms but I found it to be useful instead of multiplying inputs*
+*Scale is not always present in noise algorithms but I found it to be useful instead of multiplying inputs.*
 
-*Note: Wrap should be a value of the form 2^x, it generates the PermutationTable with that many elements*
+*Wrap should be a value of the form 2^x. It generates a permutation table of Wrap * 2 elements.*
 
 ### Sample
 You can sample with the provided `NoiseND` functions, but this disregards octaves, frequency, and scale. You really want to take advantage of fractal-brownian-motion as it prevents noticeable tiling and banding. Not to mention, the standalone noise functions are `<decides>` so they might be a PITA for your use case.
