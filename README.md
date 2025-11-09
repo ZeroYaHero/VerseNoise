@@ -1,5 +1,7 @@
 # VerseNoise
-Verse 2D and 3D Perlin-inspired gradient noise with fractal-brownian-motion. 
+Verse 2D and 3D Perlin-inspired gradient noise with fractal-brownian-motion by ZeroYaHero
+
+<img src="noise.gif" alt="demo gif">
 
 ## Run
 Create a new noise instance. This instance encapsulates a new permutation table.
